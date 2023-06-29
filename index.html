@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather</title>
+    <meta name="description" content="Weather App Show live Weather forcast">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Require File -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city & country name" spellcheck="true">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather">
+            <h2 class="city"></h2>
+            <img src="/assets/img/sun-glow.png" class="weatherIcon">
+            <h1 class="temp"></h1>
+            <h3 class="tempMaxMin"></h3>
+            <h3 class="description"></h3>
+            <div class="details">
+                <div class="col">
+                    <i class="fa-solid fa-water fa-2x"></i>
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-wind fa-2x"></i>
+                    <div>
+                        <p class="wind"></p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div>
+            Designed & Developed By <a href="http://zilleali.com" target="_blank" rel="noopener noreferrer">Developer
+                Zone ❣️ | ZILLEALI</a>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js" async defer></script>
+    <script src="https://kit.fontawesome.com/ba9316d898.js" async defer crossorigin="anonymous"></script>
+</body>
+
+</html>
